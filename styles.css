@@ -1,5 +1,5 @@
 /* Header related styles */
-#h1{
+.heading1{
     color: #FFFFFF;
 
 text-align: center;
@@ -10,7 +10,7 @@ font-weight: 400;
 line-height: normal;
 padding-top: 12%;
 }
-#h2{
+.heading2{
     font-family: Merriweather;
 font-size: 72px;
 font-weight: 900;
@@ -20,16 +20,63 @@ text-align: center;
 color: #FFFFFF;
 margin-top: 10px;
 }
-#header{
+.header{
     justify-content: center;
-    background-image: url('./resources/Banner\ Image.png');
+    background-image: url('./assets/Banner\ Image.png');
 
     width: 1320px;
 height: 600px;
 border-radius: 16px;
 margin-top: 50px;
-margin-left: 140px;
-margin-right: 140px ;
+display: block;
+margin: 0 auto;
 background-repeat: no-repeat;
+}
+#bodytext1{
+    
+   
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FF0000;
+    
+}
+#bodytext2{
+    font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 1px;
+letter-spacing: 0em;
+text-align: center;
+color :#FF0000;
+}
+#bodytext3{
+    font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+letter-spacing: 0em;
+text-align: center;
+color: #070211;
+}
+#newyearpic{
+    width: 802.9px;
+height: 500px;
+top: 1076px;
+display: block;
+margin: 0 auto;
 
+}
+.body1{
+    display: flex;
+    justify-content: space-between;
+  
+    background-image: url('./assets/Vectorrr.png');
+    background-repeat: no-repeat;
+}
+#2024{
+    margin-right: 130px;
 }
