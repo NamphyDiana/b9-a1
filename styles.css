@@ -1,0 +1,35 @@
+/* Header related styles */
+#h1{
+    color: #FFFFFF;
+
+text-align: center;
+font-family: Merriweather;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-top: 12%;
+}
+#h2{
+    font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+line-height: 95px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+margin-top: 10px;
+}
+#header{
+    justify-content: center;
+    background-image: url('./resources/Banner\ Image.png');
+
+    width: 1320px;
+height: 600px;
+border-radius: 16px;
+margin-top: 50px;
+margin-left: 140px;
+margin-right: 140px ;
+background-repeat: no-repeat;
+
+}
