@@ -188,3 +188,71 @@ color:#FFFFFF;
 border: none;
 
 }
+
+.body3{
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+   
+}
+.leftitems{
+margin-left: 140px;
+}
+.rightitems{
+    margin-right: 140px;
+}
+#newoffer{
+    color:#FF0000;
+    font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0em;
+
+
+}
+#comings{
+    color:#070211;
+    font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+#bodytext5{
+    color:#07021199;
+    font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.middleitems{
+    padding: 33px;
+    border: 14px solid #FF0000;
+    border-radius: 50%;
+}
+.rightitems{
+    margin-right: 140px;
+}
+#year0{
+    font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+letter-spacing: 0em;
+text-align: left;
+color: #FF0000;;
+}
+#bodytext6{
+    width: 276px;
+height: 96px;
+top: 3204px;
+
+color:#07021199;
+}
