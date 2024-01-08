@@ -256,3 +256,54 @@ top: 3204px;
 
 color:#07021199;
 }
+.body4{
+    margin-top: 90px;
+    text-align: left;
+    margin-left: 140px;
+}
+.grid-container{
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+}
+
+.grid-item{
+    width: 424px;
+height: 450px;
+top: 4946.07px;
+left: 140px;
+border-radius: 16px;
+padding: 7px;
+}
+
+#title{
+    color: #FF0000;
+    font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+#portfolio{
+    font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+margin-top: 10px;
+letter-spacing: 0em;
+text-align: left;
+color:#070211;
+}
+#bodytext7{
+    font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+
+letter-spacing: 0em;
+text-align: left;
+color: #07021199;
+margin-top: 10px;
+}
