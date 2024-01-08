@@ -20,10 +20,18 @@ text-align: center;
 color: #FFFFFF;
 margin-top: 10px;
 }
+.banner{
+    background: url('./assets/New\ Year\ Photo.png');
+    height: 600px;
+    width:1320px;
+    background:linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0,)),url('./assets/Banner\ Image.png');
+    display: block;
+    margin: 0 auto;
+ 
+}
 .header{
-    justify-content: center;
+  
     background-image: url('./assets/Banner\ Image.png');
-
     width: 1320px;
 height: 600px;
 border-radius: 16px;
@@ -32,6 +40,7 @@ display: block;
 margin: 0 auto;
 background-repeat: no-repeat;
 }
+
 #bodytext1{
     
    
@@ -72,11 +81,110 @@ margin: 0 auto;
 }
 .body1{
     display: flex;
-    justify-content: space-between;
-  
     background-image: url('./assets/Vectorrr.png');
+    border-radius: 20px;
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0,)),url('./assets/Vectorrr.png');
     background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 100px;
+    
+ }
+ 
+#bodyheading1{
+position: absolute;
+left: 100px;
+font-family: Merriweather;
+font-size: 64px;
+font-weight: 900;
+line-height: 88px;
+letter-spacing: 0.11em;
+text-align: left;
+color:#FFFFFF;
+
 }
-#2024{
-    margin-right: 130px;
+
+#bodytext4{
+    margin-left: 100px;
+font-family: Inter;
+color: #FFFFFF;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+margin-top: 250px;
+
+
+
+}
+
+.yearpic{
+    display: flex;
+}
+#year{
+    width: 319.83px;
+    height: 464.66px;
+   margin-top: 100px;
+    padding: 0.01px, 0px, 0px, 0px;
+}
+.button{
+    
+    height: 24px;
+    border: 1px;
+    margin-left: 150px;
+    margin-top: 80px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+    background-color: transparent; 
+    margin-right: 600px;
+}    
+
+.body2{
+    margin-top: 120px;
+    text-align: center;
+    font-family: Inter;
+font-size: 32px;
+font-weight: 600;
+line-height: 56px;
+letter-spacing: 0em;
+margin: auto;
+color:#070211;
+background-image: linear-gradient(#f9b0b0, #FF000000);
+width: 1320px;
+height: 482px;
+border-radius: 20px;
+
+
+
+}
+.body2text{
+    padding-top: 100px;
+    text-align: center;
+}
+
+#pdt{
+    
+font-family: Inter;
+font-size: 32px;
+font-weight: 600;
+line-height: 56px;
+letter-spacing: 0em;
+text-align: center;
+color:#FF0000;
+}
+#button1{
+    width: 167px;
+height: 56px;
+top: 2732px;
+left: 716px;
+padding: 16px, 32px, 16px, 32px;
+border-radius: 8px;
+gap: 10px;
+background-color: #FF0000;
+color:#FFFFFF;
+border: none;
+
 }
