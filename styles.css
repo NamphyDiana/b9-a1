@@ -24,7 +24,7 @@ margin-top: 10px;
     background: url('./assets/New\ Year\ Photo.png');
     height: 600px;
     width:1320px;
-    background:linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0,)),url('./assets/Banner\ Image.png');
+    
     display: block;
     margin: 0 auto;
  
@@ -83,7 +83,7 @@ margin: 0 auto;
     display: flex;
     background-image: url('./assets/Vectorrr.png');
     border-radius: 20px;
-    background-image:linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0,)),url('./assets/Vectorrr.png');
+    
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 100px;
@@ -225,7 +225,7 @@ text-align: left;
 #bodytext5{
     color:#07021199;
     font-family: Inter;
-font-size: 20px;
+font-size: 14px;
 font-weight: 400;
 line-height: 32px;
 letter-spacing: 0em;
@@ -236,6 +236,8 @@ text-align: left;
     padding: 33px;
     border: 14px solid #FF0000;
     border-radius: 50%;
+    margin-left: 22px;
+    margin-right:22px;
 }
 .rightitems{
     margin-right: 140px;
@@ -250,32 +252,17 @@ text-align: left;
 color: #FF0000;;
 }
 #bodytext6{
-    width: 276px;
-height: 96px;
-top: 3204px;
-
+   font-family: Inter;
+size: 12px;
 color:#07021199;
 }
 .body4{
     margin-top: 90px;
     text-align: left;
     margin-left: 140px;
-}
-.grid-container{
-    text-align: center;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    
+   
 }
 
-.grid-item{
-    width: 424px;
-height: 450px;
-top: 4946.07px;
-left: 140px;
-border-radius: 16px;
-padding: 7px;
-}
 
 #title{
     color: #FF0000;
@@ -306,4 +293,103 @@ letter-spacing: 0em;
 text-align: left;
 color: #07021199;
 margin-top: 10px;
+}
+
+    .table{
+text-align: center;
+
+    }
+
+.tableelements{
+    
+    padding: 7px;
+    border-radius: 12px;
+    
+    
+}
+.subscribe{
+    margin-top: 70px;
+    text-align: center;
+    background-color: #FF00000D;
+    width: 1250px;
+    margin-left: 120px;
+    margin-right: 290px;
+        height: 620px;
+        
+        
+    
+}
+#mail{
+    margin-top: 60px;
+    height: 110px;
+    width: 110px;
+}
+#sheading{
+    font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 0em;
+text-align: center;
+color:#070211;
+}
+
+#bodytext8{
+    font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: center;
+color:#07021199;
+}
+
+.subform{
+    outline: none;
+    display: flex;
+    justify-content: center;
+    width:100px;
+    margin-left: 440px;
+    height: 62px;
+    border-radius:50px;
+    border-color: transparent;
+    background-color: #FFFFFF;
+    margin-top: 50px;
+    
+}
+#subbutton{
+    width: 140px;
+    height: 62px;
+border-radius: 0px 50px 50px 0px;
+border-color:transparent;
+color:#FFFFFF;
+background-color: #FF0000;
+}
+
+footer{
+    background-color: #070211;
+}
+.upperelements{
+    display: flex;
+    justify-content: space-between;
+    
+    color: #FFFFFF;
+}
+
+.leftitemsf{
+    margin-right: 5%;
+}
+
+#callpic{
+    width: 40px;
+    height: 40px;
+float:left;
+margin-right: 5px;
+}
+
+#netpic{
+    width: 40px;
+    height: 40px;
+float:left;
+margin-right: 5px;  
 }
